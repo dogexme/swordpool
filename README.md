@@ -13,6 +13,7 @@
 * When adding liquidity, in order to identify transactions, we will charge a fee of 10 Doge to add and 1.42 Doge for remove
 * and min token doge liq it's 10000 doge and min other liq it's 100000
 * The first liquidity added must be removed first.
+* we already stop add liqs function because some unsloved problem
 
 # 流动性管理规则
 * 我们测试了两种模型，最终抛弃了添加流动性产生利息的模型。取而代之的是另外一种买/卖模型
@@ -25,6 +26,7 @@
 * 系统仍然在调整中，例如如果这个模型不够合理，我们会考虑调整规则及算法。
 * 添加流动性时为了识别交易我们会收取 10 个doge，移除时会收取1.42个doge
 * 移除只能先移除同种类型最先加入的流动性
+* 我们已经停止了添加流动性的功能，因为某些未解决的问题。
 
 # swap rule
 * 往池子规定的地址，转池子定义的drc20或者doge的交易会被识别为交易行为，请使用web网页操作非网页操作导致的错误我们无法解决。
