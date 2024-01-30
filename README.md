@@ -56,3 +56,32 @@ Balances are calculated based on blocks, with each block calculating the actual 
 * Please note that the balance fluctuates with the blocks, and the front-end display cannot determine the confirmation of your transaction in a particular block. Therefore, there might be discrepancies in price display. Please be aware, investment carries risks!!!
 * Because of different indexer, Please note that if you have both Dogim and Dogi, the ticks for Dogim and Dogi are currently not distinguishable. If you intend to sell, you cannot profit twice, so it's advisable for you to make your own decision. We neither recognize nor support Dogi.
 
+
+# Liq Notice
+1.池子一直在运行，此前的流动性撤出是因为大户套利导致用户正常的撤出行为，无法撤出的用户我们已经作出补偿（已经分批陆续发放）。之后池子会继续运行，由于算法的设定 x * y  = k ，
+k值池子会不断膨胀，dx只会在出现错误或者不可运行时才会进行维护，之后池子价格如何发展由市场决定。加密货币市场买卖、投资是高风险的行为，请自担风险！！！无论池子出现什么样的价格或者波动，用户出现亏损或者盈利与我们无关。
+2.注意：有人在利用 rollback机制（被系统判断为恶意行为） 扣除3%的变相提供流动性的行为，与我们无关。
+3.当出现不可抗力因素导致停机或者不可运行、不具备交易性需要停止运营，或者交易活动不足时我们将关闭交易池子。
+4.我们认为链上交易具备公开的特性，为此我们会继续开发新的协议,l2 wrapper，让swap及其他应用不再需要独立维护以继续增强无主服务的能力。
+
+dogex将由全新的团队接管，新团队会继续耕耘发新协议、应用、基础设施（l2，新协议），敬请期待。
+
+请知悉以上条款，当你使用dogex交易时证明你同意我们的条款及声明。
+
+
+# Liq Notice
+
+1. The pool has been running continuously, and the previous withdrawal of liquidity was due to large account arbitrage, leading to normal user withdrawal actions. Compensation has been provided for users unable to withdraw (already distributed in batches). The pool will continue to operate, and due to the algorithm setting of x * y = k, the value of k will continuously expand. Maintenance of dx will only occur in the event of errors or non-operational issues. The future development of pool prices will be determined by the market. Cryptocurrency trading and investment involve high risks; please assume responsibility for your own risks! Regardless of the pool's price or fluctuations, any user losses or gains are unrelated to us.
+
+2. Note: Some individuals are using the rollback mechanism (identified by the system as malicious behavior) to deduct 3% for providing liquidity, which is unrelated to us.
+
+3. In the event of force majeure causing a shutdown or non-operational status, or when there is insufficient trading activity, we will close the trading pool.
+
+4. We believe that on-chain transactions have a public nature. Therefore, we will continue to develop new protocols and L2 wrappers to eliminate the need for independent maintenance of swaps and other applications, enhancing the capabilities of decentralized services.
+
+Dogex will be taken over by a completely new team. The new team will continue to cultivate new protocols, applications, and infrastructure (L2, new protocols). Please stay tuned.
+
+Please be aware of the above terms. By using Dogex for trading, you acknowledge your agreement with our terms and statements.
+
+
+
